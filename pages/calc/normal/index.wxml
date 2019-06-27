@@ -1,0 +1,31 @@
+<!-- 结果展示 -->
+<view class="result-view">{{result}}</view>
+<!-- 结果展示 -->
+
+<!-- 按键 -->
+<view class='keys'>
+  <view class='key key-color-grey' bindtap='bindAC'>AC</view>
+  <view class='key key-color-grey' bindtap='bindInverse'>+/-</view>
+  <view class='key key-color-grey' bindtap='bindOperator' data-operator='%'>%</view>
+  <view class='key key-color-orange' bindtap='bindOperator' data-operator='/'>÷</view>
+
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='7'>7</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='8'>8</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='9'>9</view>
+  <view class='key key-color-orange' bindtap='bindOperator' data-operator='*'>×</view>
+
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='4'>4</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='5'>5</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='6'>6</view>
+  <view class='key key-color-orange' bindtap='bindOperator' data-operator='-'>-</view>
+
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='1'>1</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='2'>2</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='3'>3</view>
+  <view class='key key-color-orange' bindtap='bindOperator' data-operator='+'>+</view>
+
+  <view class='key key-color-darkgrey key-number key-zero' bindtap='bindNumber' data-number='0'>0</view>
+  <view class='key key-color-darkgrey key-number' bindtap='bindNumber' data-number='.'>.</view>
+  <view class='key key-color-orange' bindtap='bindEqual'>=</view>
+
+</view>

@@ -1,0 +1,68 @@
+/* pages/calc/normal/index.wxss */
+
+.result-view {
+  width: 100%;
+  height: 25vh;
+  padding: 60rpx;
+  color: #fff;
+  font-size: 80rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.keys {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 12.5rpx;
+  border-radius: 75rpx;
+  line-height: 150rpx;
+  text-align: center;
+  font-size: 40rpx;
+}
+
+.key-number {
+  font-size: 60rpx;
+}
+
+.key-zero {
+  width: 325rpx;
+  text-align: left;
+  padding: 0 75rpx;
+  box-sizing: border-box;
+}
+
+.key-color-grey {
+  background: #a5a5a5;
+  color: #000;
+}
+.key-color-grey:active{
+  background: #d8d8d8;
+}
+
+.key-color-darkgrey {
+  background: #333;
+  color: #fff;
+}
+
+.key-color-darkgrey:active{
+  background: #727272;
+}
+
+.key-color-orange {
+  background: #ef9b36;
+  color: #fff;
+}
+
+.key-color-orange:active{
+  background: #f2c894;
+}
